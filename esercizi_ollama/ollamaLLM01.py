@@ -1,3 +1,9 @@
+##Esercizio 1:
+# 
+# Traccia: Scrivi un prompt che traduca un testo dall'italiano all'inglese e viceversa. Usa il prompt per tradurre una breve descrizione di un prodotto.
+# 
+# Obiettivo: Sviluppare un prompt che sia adatto alla traduzione fluida tra italiano e inglese.
+
 from openai import OpenAI
 
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
