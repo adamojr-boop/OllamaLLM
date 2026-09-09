@@ -24,4 +24,5 @@ completion = client.chat.completions.create(
     ],
 )
 
+print("\n--- RISULTATO TRADOTTO ---")
 print(completion.choices[0].message.content)
