@@ -1,0 +1,1 @@
+**Modello utilizzato**: `llama3.1`
