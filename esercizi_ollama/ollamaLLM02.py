@@ -1,3 +1,9 @@
+##Esercizio 2:
+#
+# Traccia: Crea un prompt che estragga i dettagli chiave (nome, età, professione) da un testo descrittivo su una persona.
+#
+# Obiettivo: Estrarre informazioni strutturate da un testo libero.
+
 from openai import OpenAI
 
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
